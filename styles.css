@@ -1,0 +1,144 @@
+* {
+  background-color: #cbc2b5;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: #9a856c;
+  text-align: center;
+  padding: auto;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 600;
+  line-height: 2;
+  border-bottom: 20px;
+}
+
+.container .text h2 {
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.container .text ul {
+  margin-left: 35px;
+}
+
+.typography {
+  background-color: linen;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 40px;
+  color: linen;
+  background-color: #9a856c;
+}
+
+p {
+  color: #191919;
+  font-weight: lighter;
+  font-family: monospace;
+}
+
+#list-heading {
+  padding: 0;
+  color: #191919;
+  margin: 0;
+}
+
+li {
+  color: #191919;
+  font-weight: lighter;
+  font-family: monospace;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: 0 auto;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+a:link {
+  color: #314028;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9a856c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b6b6d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #9b4819;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.headings {
+  border-bottom: 1px solid black;
+}
+
+.selector {
+  padding: auto;
+}
+
+.box {
+  font-family: monospace;
+  background-color: linen;
+  color: #314028;
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: auto;
+  border-radius: 20px;
+}
+
+h4 {
+  font-family: monospace;
+  font-size: 10;
+  font-weight: lighter;
+  padding: 20px;
+  margin: auto 0;
+  text-align: center;
+}
